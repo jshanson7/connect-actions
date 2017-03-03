@@ -12,7 +12,7 @@ npm i --save connect-actions
 
 ```javascript
 import connectActions from 'connect-actions';
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 import * as NavigationActions from '../actions/navigation';
 import * as UIActions from '../actions/ui';
 import * as UserActions from '../actions/app';
