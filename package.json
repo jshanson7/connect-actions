@@ -1,6 +1,6 @@
 {
   "name": "connect-actions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Connect Redux actions by domain",
   "main": "lib/index.js",
   "scripts": {
