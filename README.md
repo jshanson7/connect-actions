@@ -18,7 +18,7 @@ import * as UIActions from '../actions/ui';
 import * as UserActions from '../actions/app';
 
 @connectActions({NavigationActions, UIActions, UserActions})
-export default class App extends Component {
+class App extends Component {
 
   static propTypes = {
     NavigationActions: PropTypes.object.isRequired,
